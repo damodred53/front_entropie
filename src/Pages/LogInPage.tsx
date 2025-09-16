@@ -1,9 +1,13 @@
+import Form from "../Components/Form/Form";
 
 
 
 const LogInPage = () => {
   return (
-    <div>LogInPage</div>
+    <div>
+      <h1>Page de connexion</h1>
+      <Form />
+    </div>
   )
 }
 

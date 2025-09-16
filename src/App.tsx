@@ -17,7 +17,7 @@ const App = () => {
               </Routes>
             </Router>
         
-        </React.StrictMode>,
+        </React.StrictMode>
       
       </div>
   )
