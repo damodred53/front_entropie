@@ -2,6 +2,7 @@ import React from 'react'
 import  {BrowserRouter as Router, Routes, Route} from 'react-router-dom'
 import SignInPage from './Pages/SignInPage'
 import LogInPage from './Pages/LogInPage'
+import DashBoard from './Pages/Dashboard'
 
 
 const App = () => {
@@ -14,6 +15,7 @@ const App = () => {
               <Routes>
                 <Route path="/" element={<SignInPage />}></Route> 
                 <Route path="/login" element={<LogInPage />}></Route>
+                <Route path="/dashboard" element={<DashBoard />}></Route>
               </Routes>
             </Router>
         
